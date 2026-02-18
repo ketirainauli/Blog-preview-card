@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+body {
+  background-color: hsl(47, 88%, 67%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  gap: 1rem;
+ 
+}
+
+.card {
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow:  10px 10px rgb(12, 11, 11);
+  display:flex;
+  width: 384px;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* img{
+    max-width: 100%;
+} */
+
+.illustration {
+  width: 336px;
+  height: 200px;
+  opacity: 100%;
+  border-radius: 10px;
+  align-self: center;
+
+}
+.card-category {
+  background-color: hsl(47, 88%, 67%);
+  padding: 4px 12px;
+  border-radius: 4px;
+  align-self: self-start;
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+.card-date {
+    align-self: flex-start;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card-title{
+    color:hsl(0, 0%, 7%);
+    font-weight: 800;
+    color: hsl(47, 88%, 67%)
+}
+
+.card-description{
+    color:hsl(0,0%, 42%);
+}
+.card-author-name{
+    font-weight: 800;   
+}
+ 
+.avatar{
+    width: 32px;
+    height: 32px;
+}
+
+.card-author{
+    display: flex;
+    gap:12px;
+    align-items: center;
+    
+}
+@media screen and(max-width:375px){
+.card{
+    width: 320px;
+    margin: 0 auto;
+    padding: 16px;
+}
+   
+}
